@@ -1,0 +1,1574 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="/assets/style/style.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <script src="https://kit.fontawesome.com/c0cbabc4f0.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>Index</title>
+  </head>
+
+  <body style="background: linear-gradient(90deg, rgba(2,0,36,1) 3%, rgba(2,81,119,1) 42%, rgba(2,81,119,1) 44%, rgba(2,81,119,1) 87%);">
+    <div class="container-fluid">
+      <!-- nav bar top start -->
+      <div class="row">
+        <nav style="background: linear-gradient(90deg, rgba(2,0,36,1) 3%, rgba(2,81,119,1) 42%, rgba(2,81,119,1) 44%, rgba(2,81,119,1) 87%);"
+          class="navbar navbar-expand-md navbar-dark fixed-top"
+          aria-label="Fourth navbar example"
+        >
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"
+              ><img
+                src="/assets/images/LIFESTYLE_ Inspiring Podcasts I’m Loving Listening to….png"
+                alt="Bootstrap"
+                width="40"
+                height="40"
+            /></a>
+
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarsExample04"
+              aria-controls="navbarsExample04"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample04">
+              <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-light fs-5"
+                    aria-current="page"
+                    href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link active text-light fs-5"
+                    aria-current="page"
+                    href="#artist"
+                    >Artist</a
+                  >
+                </li>
+              </ul>
+              <div id="search-bar">
+                <i id="search-icon" class="fas fa-search"></i>
+                <input id="search-input" placeholder="Search" size="35">
+                <i id="mic-icon" class="fas fa-microphone"></i>
+              </div>
+              <div>
+                <i class="fa-solid fa-bell position-relative mx-3">
+                  <span
+                    class="position-absolute top-0 start-100 translate-middle badge border border-light border-1 border-opacity-50 rounded-circle bg-danger p-2"
+                    ><span class="visually-hidden">unread messages</span></span
+                  >
+                </i>
+              </div>
+              <img
+                src="/assets/images/claudia-raya-Ol0wJhWu3-s-unsplash.jpg"
+                alt="mdo"
+                width="32"
+                height="32"
+                class="rounded-circle mx-3"
+              />
+            </div>
+          </div>
+        </nav>
+      </div>
+<!-- nav bar bottom start -->
+      <div class="container-fluid">
+          <div class="collapse" id="collapseExample">
+                       
+                       <nav
+                        class="navbar navbar-expand-md navbar-dark fixed-bottom"
+                        style="background: linear-gradient(90deg, rgba(2,0,36,1) 3%, rgba(2,81,119,1) 42%, rgba(2,81,119,1) 44%, rgba(2,81,119,1) 87%);"
+                        aria-label="Fourth navbar example"
+                      >
+                        <div class="container">
+                          <a class="navbar-brand" href="#"
+                            ><img
+                              src="/assets/images/LIFESTYLE_ Inspiring Podcasts I’m Loving Listening to….png"
+                              alt="Bootstrap"
+                              width="40"
+                              height="40"
+                          /></a>
+                          <div class="text-white">
+                            <span>Tera Yaar Hoon Me</span> <div class="ms-5 ps-5 d-inline-block">
+                                <i class="fa-regular fa-heart"></i> <i class="fa-solid fa-ban"></i>
+                            </div>
+                           <br>
+                            <span>Arjit Singh</span>
+                            
+                          </div>
+              
+                          <button
+                            class="navbar-toggler"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarsExample04"
+                            aria-controls="navbarsExample04"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                          >
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+              
+                          <div class="collapse navbar-collapse" id="navbarsExample04">
+                            <ul class="navbar-nav mx-auto mb-2 mb-md-0">
+                              <li class="nav-item">
+                                <div class="mx-auto ms-5 fs-3 ps-5 text-light">
+                                  <i class="fa-solid fa-shuffle"></i>&emsp;
+                                  <i onclick="document.getElementById('player').volume += 0.1" class="fa-solid fa-backward-step" title="vol-high"></i>&emsp;
+                                  <i onclick="document.getElementById('player').play()" class="fa-regular fa-circle-play" title="play"></i>&emsp;
+                                  
+                                  <i onclick="document.getElementById('player').pause()" class="fa-regular fa-circle-pause" title="pause"></i>&emsp;
+                                  <i onclick="document.getElementById('player').volume -= 0.1" class="fa-solid fa-forward-step" title="vol-low"></i>&emsp;
+                                  <i class="fa-solid fa-repeat"></i>
+                                </div>
+                           <span>1:39 </span><input type="range" min="10" max="100" style="width:500px; margin-left:0px;"><span> 4:33</span>
+                                  <audio src="/assets/music/Tera Yaar Hoon Main (Sonu Ke Titu Ki Sweety) 128 Kbps.mp3" id="player"></audio>
+                              </li>
+                            </ul>
+                        <div class="text-">
+                            <i class="fa-solid fa-sliders"></i>
+                              <i class="fa-solid fa-laptop-file ms-2"></i>
+                              <i class="fa-solid fa-volume-high ms-2"></i>
+                             <input type="range" min="10" max="100" style="width:100px; margin-left:10px;">
+                             <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                          </div>
+                        </div>
+                      </nav> 
+                      
+      </div>
+     
+        </div>
+      <!-- nav bar end -->
+
+      <!-- main container start -->
+      <main>
+        <div class="container mt-5" id="main-container">
+          <!-- header content start -->
+          <header>
+              <div class="row my-4">
+                  <div class="col-md animate1">
+                    <img
+                      class="rounded figure-img img-fluid"
+                      src="/assets/images/marcela-laskoski-YrtFlrLo2DQ-unsplash.jpg"
+                      alt=""
+                      height="300px"
+                      width="300px"
+                    />
+                  </div>
+                  <div class="col-md animate1">
+                    <img
+                      class="rounded figure-img img-fluid"
+                      src="/assets/images/mohammad-metri-1oKxSKSOowE-unsplash.jpg"
+                      alt=""
+                      height="300px"
+                      width="300px"
+                    />
+                  </div>
+                  <div class="col-md animate1">
+                    <img
+                      class="rounded figure-img img-fluid"
+                      src="/assets/images/steve-harvey-QWUCeS2qVoM-unsplash.jpg"
+                      alt=""
+                      height="300px"
+                      width="300px"
+                    />
+                  </div>
+                </div>
+          </header>
+          <!-- header content end -->
+
+          <!-- latest release (section A start) -->
+          <section>
+            <div class="container">
+              <div><h1 class="text-white">Latest Release</h1></div>
+              <!-- article 1 -->
+            <article> 
+              <div class="row">
+                <!-- music a -->
+                <div class="col-md-6">
+                    <div class="card bg-transparent border border-0">
+                      <div class="row g-0">
+                        <div class="col-md-4 position-relative hov">
+                          <img
+                            class="bd-placeholder-img img-fluid rounded image1"
+                            width="100%"
+                            height="250"
+                            src="assets/images/james-stamler-k3heD_KwH0A-unsplash.jpg"
+                            role="img"
+                            aria-label="Placeholder: Image"
+                            preserveAspectRatio="xMidYMid slice"
+                            focusable="false"
+                          />
+    
+                          <div class="m1 position-absolute">
+                              <button class="btn border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-play-fill" viewBox="0 0 16 16">
+                                    <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+                                  </svg>
+                                </button>                     
+                          </div>
+                        </div>
+                        <div class="col-md-7 ms-3">
+                          <div class="row">
+                              <div class="col-md-6"><h5 class="text-white">Tera Yaar Hoon Me</h5>
+                                <p class="card-text">
+                                    <small class="text-white">12-May-2022</small>
+                                  </p>
+                              </div>
+                              <div class="col-md-6 mt-n2">
+                                  <div class="dropdown float-end">
+                                      <button
+                                        class="btn btn-sm text-white float-right"
+                                        type="button"
+                                        data-bs-toggle="dropdown"
+                                        aria-expanded="false"
+                                      >
+                                      <i class="fa-solid fa-ellipsis"></i>
+                                      </button>
+                                      <ul class="dropdown-menu dropdown-menu-end w-25px">
+                                        <li><a class="dropdown-item" href="#"><i class="fa-solid fa-play"></i> Play Now</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#"><i class="fa-regular fa-plus"></i> Add to Queue</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-music-note-list" viewBox="0 0 16 16">
+                                          <path d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2z"/>
+                                          <path fill-rule="evenodd" d="M12 3v10h-1V3h1z"/>
+                                          <path d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1V2.82z"/>
+                                          <path fill-rule="evenodd" d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
+                                        </svg> Add to Favourite</a></l>
+                                          <li><hr class="dropdown-divider"></li>
+                                          <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+                                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+                                          </svg> Get Info</a></li>
+                                        
+                                      </ul>
+                                    </div>
+    <br>
+    <br>  
+                                        <small class="text-white float-end mt-n2"> 4:30</small>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <!-- music b -->
+                <div class="col-md-6">
+                    <div class="card bg-transparent border border-0">
+                      <div class="row g-0">
+                        <div class="col-md-4 position-relative hov">
+                          <img
+                            class="bd-placeholder-img img-fluid rounded image1"
+                            width="100%"
+                            height="250"
+                            src="assets/images/james-stamler-k3heD_KwH0A-unsplash.jpg"
+                            role="img"
+                            aria-label="Placeholder: Image"
+                            preserveAspectRatio="xMidYMid slice"
+                            focusable="false"
+                          />
+    
+                          <div class="m1 position-absolute">
+                              <button class="btn border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-play-fill" viewBox="0 0 16 16">
+                                    <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+                                  </svg>
+    
+                                </button>
+                        
+    
+                           
+                          </div>
+                        </div>
+                        <div class="col-md-7 ms-3">
+                          <div class="row">
+                              <div class="col-md-6"><h5 class="text-white">Tera Yaar Hoon Me</h5>
+                                <p class="card-text">
+                                    <small class="text-white">12-May-2022</small>
+                                  </p>
+                              </div>
+                              <div class="col-md-6 mt-n2">
+                                  <div class="dropdown float-end">
+                                      <button
+                                        class="btn btn-sm text-white float-right"
+                                        type="button"
+                                        data-bs-toggle="dropdown"
+                                        aria-expanded="false"
+                                      >
+                                      <i class="fa-solid fa-ellipsis"></i>
+                                      </button>
+                                      <ul class="dropdown-menu dropdown-menu-end w-25px">
+                                        <li><a class="dropdown-item" href="#"><i class="fa-solid fa-play"></i> Play Now</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#"><i class="fa-regular fa-plus"></i> Add to Queue</a></li>
+                                        <li><hr class="dropdown-divider"></li>
+                                        <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-music-note-list" viewBox="0 0 16 16">
+                                          <path d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2z"/>
+                                          <path fill-rule="evenodd" d="M12 3v10h-1V3h1z"/>
+                                          <path d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1V2.82z"/>
+                                          <path fill-rule="evenodd" d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
+                                        </svg> Add to Favourite</a></l>
+                                          <li><hr class="dropdown-divider"></li>
+                                          <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+                                            <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+                                          </svg> Get Info</a></li>
+                                        
+                                      </ul>
+                                    </div>
+    <br>
+    <br>  
+                                        <small class="text-white float-end mt-n2"> 4:30</small>
+                              </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </article>
+            <!-- article 2 -->
+             <article>
+                <div class="row my-2">
+                    <!-- music c -->
+                    <div class="col-md-6">
+                      <div class="card bg-transparent border border-0">
+                        <div class="row g-0">
+                          <div class="col-md-4 position-relative hov">
+                            <img
+                              class="bd-placeholder-img img-fluid rounded image1"
+                              width="100%"
+                              height="250"
+                              src="assets/images/james-stamler-k3heD_KwH0A-unsplash.jpg"
+                              role="img"
+                              aria-label="Placeholder: Image"
+                              preserveAspectRatio="xMidYMid slice"
+                              focusable="false"
+                            />
+      
+                            <div class="m1 position-absolute">
+                                <button class="btn border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-play-fill" viewBox="0 0 16 16">
+                                      <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+                                    </svg>
+      
+                                  </button>
+                          
+      
+                             
+                            </div>
+                          </div>
+                          <div class="col-md-7 ms-3">
+                            <div class="row">
+                                <div class="col-md-6"><h5 class="text-white">Tera Yaar Hoon Me</h5>
+                                  <p class="card-text">
+                                      <small class="text-white">12-May-2022</small>
+                                    </p>
+                                </div>
+                                <div class="col-md-6 mt-n2">
+                                    <div class="dropdown float-end">
+                                        <button
+                                          class="btn btn-sm text-white float-right"
+                                          type="button"
+                                          data-bs-toggle="dropdown"
+                                          aria-expanded="false"
+                                        >
+                                        <i class="fa-solid fa-ellipsis"></i>
+                                        </button>
+                                        <ul class="dropdown-menu dropdown-menu-end w-25px">
+                                          <li><a class="dropdown-item" href="#"><i class="fa-solid fa-play"></i> Play Now</a></li>
+                                          <li><hr class="dropdown-divider"></li>
+                                          <li><a class="dropdown-item" href="#"><i class="fa-regular fa-plus"></i> Add to Queue</a></li>
+                                          <li><hr class="dropdown-divider"></li>
+                                          <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-music-note-list" viewBox="0 0 16 16">
+                                            <path d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2z"/>
+                                            <path fill-rule="evenodd" d="M12 3v10h-1V3h1z"/>
+                                            <path d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1V2.82z"/>
+                                            <path fill-rule="evenodd" d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
+                                          </svg> Add to Favourite</a></l>
+                                            <li><hr class="dropdown-divider"></li>
+                                            <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+                                              <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+                                            </svg> Get Info</a></li>
+                                          
+                                        </ul>
+                                      </div>
+      <br>
+      <br>  
+                                          <small class="text-white float-end mt-n2"> 4:30</small>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- music d -->
+                    <div class="col-md-6">
+                        <div class="card bg-transparent border border-0">
+                          <div class="row g-0">
+                            <div class="col-md-4 position-relative hov">
+                              <img
+                                class="bd-placeholder-img img-fluid rounded image1"
+                                width="100%"
+                                height="250"
+                                src="assets/images/james-stamler-k3heD_KwH0A-unsplash.jpg"
+                                role="img"
+                                aria-label="Placeholder: Image"
+                                preserveAspectRatio="xMidYMid slice"
+                                focusable="false"
+                              />
+        
+                              <div class="m1 position-absolute">
+                                  <button class="btn border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-play-fill" viewBox="0 0 16 16">
+                                        <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+                                      </svg>
+        
+                                    </button>
+                            
+        
+                               
+                              </div>
+                            </div>
+                            <div class="col-md-7 ms-3">
+                              <div class="row">
+                                  <div class="col-md-6"><h5 class="text-white">Tera Yaar Hoon Me</h5>
+                                    <p class="card-text">
+                                        <small class="text-white">12-May-2022</small>
+                                      </p>
+                                  </div>
+                                  <div class="col-md-6 mt-n2">
+                                      <div class="dropdown float-end">
+                                          <button
+                                            class="btn btn-sm text-white float-right"
+                                            type="button"
+                                            data-bs-toggle="dropdown"
+                                            aria-expanded="false"
+                                          >
+                                          <i class="fa-solid fa-ellipsis"></i>
+                                          </button>
+                                          <ul class="dropdown-menu dropdown-menu-end w-25px">
+                                            <li><a class="dropdown-item" href="#"><i class="fa-solid fa-play"></i> Play Now</a></li>
+                                            <li><hr class="dropdown-divider"></li>
+                                            <li><a class="dropdown-item" href="#"><i class="fa-regular fa-plus"></i> Add to Queue</a></li>
+                                            <li><hr class="dropdown-divider"></li>
+                                            <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-music-note-list" viewBox="0 0 16 16">
+                                              <path d="M12 13c0 1.105-1.12 2-2.5 2S7 14.105 7 13s1.12-2 2.5-2 2.5.895 2.5 2z"/>
+                                              <path fill-rule="evenodd" d="M12 3v10h-1V3h1z"/>
+                                              <path d="M11 2.82a1 1 0 0 1 .804-.98l3-.6A1 1 0 0 1 16 2.22V4l-5 1V2.82z"/>
+                                              <path fill-rule="evenodd" d="M0 11.5a.5.5 0 0 1 .5-.5H4a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 7H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 .5 3H8a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5z"/>
+                                            </svg> Add to Favourite</a></l>
+                                              <li><hr class="dropdown-divider"></li>
+                                              <li><a class="dropdown-item" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+                                                <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
+                                              </svg> Get Info</a></li>
+                                            
+                                          </ul>
+                                        </div>
+        <br>
+        <br>  
+                                            <small class="text-white float-end mt-n2"> 4:30</small>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+             </article>  
+            </div>
+          </section>
+          <!-- section A end -->
+
+          <!-- artist (section B start) -->
+          <section id="artist">
+            <div class="container">
+              <div><h1 class="text-white">Artist</h1></div>
+              <div class="row">
+                <div class="col-md-2 position-relative hov">
+                  <figure class="figure">
+                    <img
+                      src="/assets/images/Alka_Yagnik.jpg"
+                      class="figure-img img-fluid rounded-circle rounded image1"
+                      alt=""
+                    />
+                    <div class="m1 position-absolute mt-n3">
+                  <a href="format.html">    <button class="btn border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-play-fill" viewBox="0 0 16 16">
+                              <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+                            </svg>
+                          </button>  
+                        </a>                  
+                    </div>
+                    <figcaption class="figure-caption text-center text-dark">
+                      <h5 class="text-white">Alka Yagnik</h5>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="col-md-2 position-relative hov">
+                    <figure class="figure">
+                      <img
+                        src="/assets/images/arjit.jpg"
+                        class="figure-img img-fluid rounded-circle rounded image1"
+                        alt=""
+                      />
+                      <div class="m1 position-absolute mt-n3">
+                    <a href="format.html">    <button class="btn border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-play-fill" viewBox="0 0 16 16">
+                                <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+                              </svg>
+                            </button>  
+                          </a>                  
+                      </div>
+                      <figcaption class="figure-caption text-center text-dark">
+                        <h5 class="text-white">Arjit Singh</h5>
+                      </figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-2 position-relative hov">
+                      <figure class="figure">
+                        <img
+                          src="/assets/images/Neha_Kakkar.jpg"
+                          class="figure-img img-fluid rounded-circle rounded image1"
+                          alt=""
+                        />
+                        <div class="m1 position-absolute mt-n3">
+                      <a href="format.html">    <button class="btn border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-play-fill" viewBox="0 0 16 16">
+                                  <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+                                </svg>
+                              </button>  
+                            </a>                  
+                        </div>
+                        <figcaption class="figure-caption text-center text-dark">
+                          <h5 class="text-white">Neha Kakkar</h5>
+                        </figcaption>
+                      </figure>
+                </div>
+                <div class="col-md-2 position-relative hov">
+                        <figure class="figure">
+                          <img
+                            src="/assets/images/Jubin_Nautiyal.jpg"
+                            class="figure-img img-fluid rounded-circle rounded image1"
+                            alt=""
+                          />
+                          <div class="m1 position-absolute mt-n3">
+                        <a href="format.html">    <button class="btn border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                  <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-play-fill" viewBox="0 0 16 16">
+                                    <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+                                  </svg>
+                                </button>  
+                              </a>                  
+                          </div>
+                          <figcaption class="figure-caption text-center text-dark">
+                            <h5 class="text-white">Jubin Nautiyal</h5>
+                          </figcaption>
+                        </figure>
+                </div>
+                <div class="col-md-2 position-relative hov">
+                          <figure class="figure">
+                            <img
+                              src="/assets/images/AR_Rahman.jpg"
+                              class="figure-img img-fluid rounded-circle rounded image1"
+                              alt=""
+                            />
+                            <div class="m1 position-absolute mt-n3">
+                          <a href="format.html">    <button class="btn border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-play-fill" viewBox="0 0 16 16">
+                                      <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+                                    </svg>
+                                  </button>  
+                                </a>                  
+                            </div>
+                            <figcaption class="figure-caption text-center text-dark">
+                              <h5 class="text-white">AR Rahman</h5>
+                            </figcaption>
+                          </figure>
+                </div>
+                <div class="col-md-2 position-relative hov">
+                            <figure class="figure">
+                              <img
+                                src="/assets/images/Udit_Narayan.jpg"
+                                class="figure-img img-fluid rounded-circle rounded image1"
+                                alt=""
+                              />
+                              <div class="m1 position-absolute mt-n3">
+                            <a href="format.html">    <button class="btn border-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="white" class="bi bi-play-fill" viewBox="0 0 16 16">
+                                        <path d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393z"/>
+                                      </svg>
+                                    </button>  
+                                  </a>                  
+                              </div>
+                              <figcaption class="figure-caption text-center text-dark">
+                                <h5 class="text-white">Udit Narayan</h5>
+                              </figcaption>
+                            </figure>
+                </div>
+                          
+              </div>
+            </div>
+          </section>
+          <!-- section B end -->
+
+          <!-- Mood (section C start) -->
+          <section>
+            <div class="container bg-light my-2">
+              <div class="row">
+                <div class="col-md-2 py-2">
+                  <img
+                    src="/assets/images/icon.jpg"
+                    class="figure-img img-fluid rounded-circle"
+                    alt=""
+                  />
+                </div>
+                <div class="col-md-10 mt-3 px-2 pt-2">
+                  <div class="row">
+                    <div class="col-md-2">
+                      <div class="position-relative">
+                        <figure class="figure">
+                          <img
+                            src="/assets/images/anthony-delanoix-hzgs56Ze49s-unsplash.jpg"
+                            class="figure-img img-fluid rounded-circle opacity-75"
+                            alt=""
+                          />
+                        </figure>
+            <div class="position-absolute top-50 start-50 text-white translate-middle fw-semibold fs-4 font-monospace">
+                          Rock
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-2">
+                      <div class="position-relative">
+                        <figure class="figure">
+                          <img
+                            src="/assets/images/hanny-naibaho-aWXVxy8BSzc-unsplash.jpg"
+                            class="figure-img img-fluid rounded-circle opacity-75"
+                            alt=""
+                          />
+                        </figure>
+                        <div
+                          class="position-absolute top-50 start-50 text-white translate-middle fw-semibold fs-4 font-monospace"
+                        >
+                          Pop
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-2">
+                      <div class="position-relative">
+                        <figure class="figure">
+                          <img
+                            src="/assets/images/mike-giles-IiwYeihxC58-unsplash.jpg"
+                            class="figure-img img-fluid rounded-circle opacity-75"
+                            alt=""
+                          />
+                        </figure>
+                        <div
+                          class="position-absolute top-50 start-50 text-white translate-middle fw-semibold fs-4 font-monospace"
+                        >
+                          Love
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-2">
+                      <div class="position-relative">
+                        <figure class="figure">
+                          <img
+                            src="/assets/images/jefferson-santos-fCEJGBzAkrU-unsplash.jpg"
+                            class="figure-img img-fluid rounded-circle opacity-75"
+                            alt=""
+                          />
+                        </figure>
+                        <div
+                          class="position-absolute top-50 start-50 text-white translate-middle fw-semibold fs-4 font-monospace"
+                        >
+                          Relax
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-2">
+                      <div class="position-relative">
+                        <figure class="figure">
+                          <img
+                            src="/assets/images/matt-botsford-OKLqGsCT8qs-unsplash.jpg"
+                            class="figure-img img-fluid rounded-circle opacity-75"
+                            alt=""
+                          />
+                        </figure>
+                        <div
+                          class="position-absolute top-50 start-50 text-white translate-middle fw-semibold fs-4 font-monospace"
+                        >
+                          Sad
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-2">
+                      <div class="position-relative">
+                        <figure class="figure">
+                          <img
+                            src="/assets/images/eric-nopanen-8e0EHPUx3Mo-unsplash.jpg"
+                            class="figure-img img-fluid rounded-circle opacity-75"
+                            alt=""
+                          />
+                        </figure>
+                        <div
+                          class="position-absolute top-50 start-50 text-white translate-middle fw-semibold fs-4 font-monospace"
+                        >
+                          Radio
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- section C end-->
+
+          <!-- Party Rectangle box (section D start) -->
+          <section>
+            <div class="container my-2">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="position-relative animate overflow-hidden">
+                    <figure class="figure">
+                      <img
+                        src="/assets/images/hanny-naibaho-aWXVxy8BSzc-unsplash.jpg"
+                        class="figure-img img-fluid opacity-75"
+                        alt=""
+                      />
+                    </figure>
+                    <div
+                      class="position-absolute top-50 start-50 text-white translate-middle fw-semibold fs-4 font-monospace"
+                    >
+                      Party
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="position-relative animate overflow-hidden">
+                    <figure class="figure">
+                      <img
+                        src="/assets/images/nainoa-shizuru-NcdG9mK3PBY-unsplash.jpg"
+                        class="figure-img img-fluid opacity-75"
+                        alt=""
+                      />
+                    </figure>
+                    <div
+                      class="position-absolute top-50 start-50 text-white translate-middle fw-semibold fs-4 font-monospace"
+                    >
+                      Travelling
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="position-relative animate overflow-hidden">
+                    <figure class="figure">
+                      <img
+                        src="/assets/images/austin-neill-hgO1wFPXl3I-unsplash.jpg"
+                        class="figure-img img-fluid opacity-75"
+                        alt=""
+                      />
+                    </figure>
+                    <div
+                      class="position-absolute top-50 start-50 text-white translate-middle fw-semibold fs-4 font-monospace"
+                    >
+                      Electronic
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- section D end -->
+
+          <!-- latest hindi and english (section E start)-->
+          <section>
+            <div class="container">
+              <!-- latest english -->
+            <article> 
+                <div class="row">
+                <h1 class="text-white">Latest English</h1>
+                <div class="card-group">
+                  <div class="card mx-1 bg-transparent border border-0">
+                    <img
+                      src="/assets/images/Cover Wattpad.jpg"
+                      class="card-img-top rounded"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text mt-n1 ml-n1 text-white">
+                        Listen<br />
+                        Nov 21,2022
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card mx-1 bg-transparent border border-0">
+                    <img
+                      src="/assets/images/🥰.jpg"
+                      class="card-img-top rounded"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text mt-n1 ml-n1 text-white">
+                        Listen<br />
+                        Nov 21,2022
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card mx-1 bg-transparent border border-0">
+                    <img
+                      src="/assets/images/dark beauty.jpg"
+                      class="card-img-top rounded"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text mt-n1 ml-n1 text-white">
+                        Listen<br />
+                        Nov 21,2022
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card mx-1 bg-transparent border border-0">
+                    <img
+                      src="/assets/images/Colorful Album cover.jpg"
+                      class="card-img-top rounded"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text mt-n1 ml-n1 text-white">
+                        Listen<br />
+                        Nov 21,2022
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card mx-1 bg-transparent border border-0">
+                    <img
+                      src="/assets/images/Glaashead album cover.jpg"
+                      class="card-img-top rounded"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text mt-n1 ml-n1 text-white">
+                        Listen<br />
+                        Nov 21,2022
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card mx-1 bg-transparent border border-0">
+                    <img
+                      src="/assets/images/🥰.jpg"
+                      class="card-img-top rounded"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text mt-n1 ml-n1 text-white">
+                        Listen<br />
+                        Nov 21,2022
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+              <!-- latest hindi -->
+              <article> 
+                  <div class="row">
+                  <h1 class="text-white">Latest Hindi</h1>
+                  <div class="card-group">
+                    <div class="card mx-1 bg-transparent border border-0">
+                      <img
+                        src="/assets/images/Cover Wattpad.jpg"
+                        class="card-img-top rounded"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <p class="card-text mt-n1 ml-n1 text-white">
+                          Listen<br />
+                          Nov 21,2022
+                        </p>
+                      </div>
+                    </div>
+                    <div class="card mx-1 bg-transparent border border-0">
+                      <img
+                        src="/assets/images/🥰.jpg"
+                        class="card-img-top rounded"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <p class="card-text mt-n1 ml-n1 text-white">
+                          Listen<br />
+                          Nov 21,2022
+                        </p>
+                      </div>
+                    </div>
+                    <div class="card mx-1 bg-transparent border border-0">
+                      <img
+                        src="/assets/images/dark beauty.jpg"
+                        class="card-img-top rounded"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <p class="card-text mt-n1 ml-n1 text-white">
+                          Listen<br />
+                          Nov 21,2022
+                        </p>
+                      </div>
+                    </div>
+                    <div class="card mx-1 bg-transparent border border-0">
+                      <img
+                        src="/assets/images/Colorful Album cover.jpg"
+                        class="card-img-top rounded"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <p class="card-text mt-n1 ml-n1 text-white">
+                          Listen<br />
+                          Nov 21,2022
+                        </p>
+                      </div>
+                    </div>
+                    <div class="card mx-1 bg-transparent border border-0">
+                      <img
+                        src="/assets/images/Glaashead album cover.jpg"
+                        class="card-img-top rounded"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <p class="card-text mt-n1 ml-n1 text-white">
+                          Listen<br />
+                          Nov 21,2022
+                        </p>
+                      </div>
+                    </div>
+                    <div class="card mx-1 bg-transparent border border-0">
+                      <img
+                        src="/assets/images/🥰.jpg"
+                        class="card-img-top rounded"
+                        alt="..."
+                      />
+                      <div class="card-body">
+                        <p class="card-text mt-n1 ml-n1 text-white">
+                          Listen<br />
+                          Nov 21,2022
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </article>
+              <!-- <div class="row">
+                <h1>Latest Hindi</h1>
+                <div class="card-group">
+                  <div class="card mx-1 bg-transparent border border-0">
+                    <img
+                      src="/assets/images/james-stamler-k3heD_KwH0A-unsplash.jpg"
+                      class="card-img-top rounded"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text mt-n1 ml-n1">
+                        Mast<br />
+                        Aug-2022
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card mx-1 bg-transparent border border-0">
+                    <img
+                      src="/assets/images/james-stamler-k3heD_KwH0A-unsplash.jpg"
+                      class="card-img-top rounded"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text mt-n1 ml-n1">
+                        Mast<br />
+                        Aug-2022
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card mx-1 bg-transparent border border-0">
+                    <img
+                      src="/assets/images/james-stamler-k3heD_KwH0A-unsplash.jpg"
+                      class="card-img-top rounded"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text mt-n1 ml-n1">
+                        Mast<br />
+                        Aug-2022
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card mx-1 bg-transparent border border-0">
+                    <img
+                      src="/assets/images/james-stamler-k3heD_KwH0A-unsplash.jpg"
+                      class="card-img-top rounded"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text mt-n1 ml-n1">
+                        Mast<br />
+                        Aug-2022
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card mx-1 bg-transparent border border-0">
+                    <img
+                      src="/assets/images/james-stamler-k3heD_KwH0A-unsplash.jpg"
+                      class="card-img-top rounded"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text mt-n1 ml-n1">
+                        Mast<br />
+                        Aug-2022
+                      </p>
+                    </div>
+                  </div>
+                  <div class="card mx-1 bg-transparent border border-0">
+                    <img
+                      src="/assets/images/james-stamler-k3heD_KwH0A-unsplash.jpg"
+                      class="card-img-top rounded"
+                      alt="..."
+                    />
+                    <div class="card-body">
+                      <p class="card-text mt-n1 ml-n1">
+                        Mast<br />
+                        Aug-2022
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+            </div>
+          </section>
+          <!-- section E end -->
+        </div>
+      </main>
+      <!-- main container end -->
+
+      <!-- aside section start -->
+      <div id="aside">
+        <div class="container">
+          <div class="row sticky-top" style="background: linear-gradient(90deg, rgba(2,81,119,1) 42%, rgba(2,81,119,1) 44%, rgba(2,81,119,1) 87%);" >
+            <div class="col-6"><h5 class="text-white">Queue</h5></div>
+            <div class="col-6">
+              <div class="dropdown float-end">
+                <button
+                  class="btn dropdown-toggle text-white"
+                  type="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Queue
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Playlists</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Favourite Songs</a></l>
+                </ul>
+              </div>
+            </div> 
+        </div>
+      <!-- article drop start -->
+    <article>
+      <div class="row">
+      <ul type="none">
+      <li>
+                  <div class="row">
+                    <div class="col-md-1"><p></p>
+                      <span class="text-white pt-2 mt-2 fs-6">01</span></div>
+                    <div class="col-md-2"><img src="/assets/images/Colorful Album cover.jpg" class="rounded shadow" alt="" height="50" width="50"></div>
+                  <div class="col-md-8 mx-1">
+                    <p class="d-inline-block"><span class="text-white fs-5 lh-1">Mirage</span><br>
+                      <span class="text-white fs-6 lh-1">Else</span>
+                    </p>
+                    <p class="d-inline float-end fs-6">
+                        <i class="fa-regular fa-heart"></i>
+                    </p>
+                  </div></div> 
+      </li>
+      <li>
+          <div class="row">
+                       <div class="col-md-1"><p></p>
+                         <span class="text-white pt-2 mt-2 fs-6">02</span></div>
+                       <div class="col-md-2"><img src="/assets/images/Cover Wattpad.jpg" class="rounded shadow" alt="" height="50" width="50"></div>
+                     <div class="col-md-8 mx-1">
+                       <p class="d-inline-block"><span class="text-white fs-5 lh-1">Happy Happy</span><br>
+                         <span class="text-white fs-6 lh-1">Rose Love</span>
+                       </p>
+                       <p class="d-inline float-end fs-6">
+                           <i class="fa-regular fa-heart"></i>
+                       </p>
+                     </div>
+                   </div>     
+      </li>        
+      <li>
+                      <div class="row">
+                        <div class="col-md-1"><p></p>
+                          <span class="text-white pt-2 mt-2 fs-6">03</span></div>
+                        <div class="col-md-2"><img src="/assets/images/LIFESTYLE_ Inspiring Podcasts I’m Loving Listening to….png" class="rounded shadow" alt="" height="50" width="50"></div>
+                      <div class="col-md-8 mx-1">
+                        <p class="d-inline-block"><span class="text-white fs-5 lh-1">Romantic</span><br>
+                          <span class="text-white fs-6 lh-1">Arjit</span>
+                        </p>
+                        <p class="d-inline float-end fs-6">
+                            <i class="fa-regular fa-heart"></i>
+                        </p>
+                        
+        
+                      </div></div>
+                      
+      </li>
+      <li>
+                        <div class="row">
+                          <div class="col-md-1"><p></p>
+                            <span class="text-white pt-2 mt-2 fs-6">04</span></div>
+                          <div class="col-md-2"><img src="/assets/images/icon.jpg" class="rounded shadow" alt="" height="50" width="50"></div>
+                        <div class="col-md-8 mx-1">
+                          <p class="d-inline-block"><span class="text-white fs-5 lh-1">Woory About</span><br>
+                            <span class="text-white fs-6 lh-1">Else</span>
+                          </p>
+                          <p class="d-inline float-end fs-6">
+                              <i class="fa-regular fa-heart"></i>
+                          </p>
+                          
+          
+                        </div></div>
+                        
+      </li>
+      <li>
+          <div class="row">
+            <div class="col-md-1"><p></p>
+              <span class="text-white pt-2 mt-2 fs-6">05</span></div>
+            <div class="col-md-2"><img src="/assets/images/🥰.jpg" class="rounded shadow" alt="" height="50" width="50"></div>
+          <div class="col-md-8 mx-1">
+            <p class="d-inline-block"><span class="text-white fs-5 lh-1">New Skin</span><br>
+              <span class="text-white fs-6 lh-1">Flume</span>
+            </p>
+            <p class="d-inline float-end fs-6">
+                <i class="fa-regular fa-heart"></i>
+            </p>
+            
+
+          </div></div>
+          
+      </li>              
+      <li>
+                            <div class="row">
+                              <div class="col-md-1"><p></p>
+                                <span class="text-white pt-2 mt-2 fs-6">06</span></div>
+                              <div class="col-md-2"><img src="/assets/images/dark beauty.jpg" class="rounded shadow" alt="" height="50" width="50"></div>
+                            <div class="col-md-8 mx-1">
+                              <p class="d-inline-block"><span class="text-white fs-5 lh-1">Quotes</span><br>
+                                <span class="text-white fs-6 lh-1">Player</span>
+                              </p>
+                              <p class="d-inline float-end fs-6">
+                                  <i class="fa-regular fa-heart"></i>
+                              </p>
+                              
+              
+                            </div></div>
+                            
+      </li>
+      <li>
+                              <div class="row">
+                                <div class="col-md-1"><p></p>
+                                  <span class="text-white pt-2 mt-2 fs-6">07</span></div>
+                                <div class="col-md-2"><img src="/assets/images/Glaashead album cover.jpg" class="rounded shadow" alt="" height="50" width="50"></div>
+                              <div class="col-md-8 mx-1">
+                                <p class="d-inline-block"><span class="text-white fs-5 lh-1">Glasshead Album</span><br>
+                                  <span class="text-white fs-6 lh-1">Cover</span>
+                                </p>
+                                <p class="d-inline float-end fs-6">
+                                    <i class="fa-regular fa-heart"></i>
+                                </p>
+                                
+                
+                              </div></div>
+                              
+      </li>
+      <li>
+          <div class="row">
+            <div class="col-md-1"><p></p>
+              <span class="text-white pt-2 mt-2 fs-6">08</span></div>
+            <div class="col-md-2"><img src="/assets/images/Colorful Album cover.jpg" class="rounded shadow" alt="" height="50" width="50"></div>
+          <div class="col-md-8 mx-1">
+            <p class="d-inline-block"><span class="text-white fs-5 lh-1">Mirage</span><br>
+              <span class="text-white fs-6 lh-1">Else</span>
+            </p>
+            <p class="d-inline float-end fs-6">
+                <i class="fa-regular fa-heart"></i>
+            </p>
+          </div></div> 
+      </li>
+<li>
+  <div class="row">
+               <div class="col-md-1"><p></p>
+                 <span class="text-white pt-2 mt-2 fs-6">09</span></div>
+               <div class="col-md-2"><img src="/assets/images/Cover Wattpad.jpg" class="rounded shadow" alt="" height="50" width="50"></div>
+             <div class="col-md-8 mx-1">
+               <p class="d-inline-block"><span class="text-white fs-5 lh-1">Happy Happy</span><br>
+                 <span class="text-white fs-6 lh-1">Rose Love</span>
+               </p>
+               <p class="d-inline float-end fs-6">
+                   <i class="fa-regular fa-heart"></i>
+               </p>
+             </div>
+           </div>     
+</li>        
+<li>
+              <div class="row">
+                <div class="col-md-1"><p></p>
+                  <span class="text-white pt-2 mt-2 fs-6">10</span></div>
+                <div class="col-md-2"><img src="/assets/images/LIFESTYLE_ Inspiring Podcasts I’m Loving Listening to….png" class="rounded shadow" alt="" height="50" width="50"></div>
+              <div class="col-md-8 mx-1">
+                <p class="d-inline-block"><span class="text-white fs-5 lh-1">Romantic</span><br>
+                  <span class="text-white fs-6 lh-1">Arjit</span>
+                </p>
+                <p class="d-inline float-end fs-6">
+                    <i class="fa-regular fa-heart"></i>
+                </p>
+                
+
+              </div></div>
+              
+</li>
+<li>
+                <div class="row">
+                  <div class="col-md-1"><p></p>
+                    <span class="text-white pt-2 mt-2 fs-6">11</span></div>
+                  <div class="col-md-2"><img src="/assets/images/icon.jpg" class="rounded shadow" alt="" height="50" width="50"></div>
+                <div class="col-md-8 mx-1">
+                  <p class="d-inline-block"><span class="text-white fs-5 lh-1">Woory About</span><br>
+                    <span class="text-white fs-6 lh-1">Else</span>
+                  </p>
+                  <p class="d-inline float-end fs-6">
+                      <i class="fa-regular fa-heart"></i>
+                  </p>
+                  
+  
+                </div></div>
+                
+</li>
+<li>
+  <div class="row">
+    <div class="col-md-1"><p></p>
+      <span class="text-white pt-2 mt-2 fs-6">12</span></div>
+    <div class="col-md-2"><img src="/assets/images/🥰.jpg" class="rounded shadow" alt="" height="50" width="50"></div>
+  <div class="col-md-8 mx-1">
+    <p class="d-inline-block"><span class="text-white fs-5 lh-1">New Skin</span><br>
+      <span class="text-white fs-6 lh-1">Flume</span>
+    </p>
+    <p class="d-inline float-end fs-6">
+        <i class="fa-regular fa-heart"></i>
+    </p>
+    
+
+  </div></div>
+  
+</li>              
+<li>
+                    <div class="row">
+                      <div class="col-md-1"><p></p>
+                        <span class="text-white pt-2 mt-2 fs-6">13</span></div>
+                      <div class="col-md-2"><img src="/assets/images/dark beauty.jpg" class="rounded shadow" alt="" height="50" width="50"></div>
+                    <div class="col-md-8 mx-1">
+                      <p class="d-inline-block"><span class="text-white fs-5 lh-1">Quotes</span><br>
+                        <span class="text-white fs-6 lh-1">Player</span>
+                      </p>
+                      <p class="d-inline float-end fs-6">
+                          <i class="fa-regular fa-heart"></i>
+                      </p>
+                      
+      
+                    </div></div>
+                    
+</li>
+<li>
+                      <div class="row">
+                        <div class="col-md-1"><p></p>
+                          <span class="text-white pt-2 mt-2 fs-6">14</span></div>
+                        <div class="col-md-2"><img src="/assets/images/Glaashead album cover.jpg" class="rounded shadow" alt="" height="50" width="50"></div>
+                      <div class="col-md-8 mx-1">
+                        <p class="d-inline-block"><span class="text-white fs-5 lh-1">Glasshead Album</span><br>
+                          <span class="text-white fs-6 lh-1">Cover</span>
+                        </p>
+                        <p class="d-inline float-end fs-6">
+                            <i class="fa-regular fa-heart"></i>
+                        </p>
+                        
+        
+                      </div></div>
+                      
+</li>
+<li>
+    <div class="row">
+      <div class="col-md-1"><p></p>
+        <span class="text-white pt-2 mt-2 fs-6">15</span></div>
+      <div class="col-md-2"><img src="/assets/images/Colorful Album cover.jpg" class="rounded shadow" alt="" height="50" width="50"></div>
+    <div class="col-md-8 mx-1">
+      <p class="d-inline-block"><span class="text-white fs-5 lh-1">Mirage</span><br>
+        <span class="text-white fs-6 lh-1">Else</span>
+      </p>
+      <p class="d-inline float-end fs-6">
+          <i class="fa-regular fa-heart"></i>
+      </p>
+    </div></div> 
+</li>
+<li>
+<div class="row">
+         <div class="col-md-1"><p></p>
+           <span class="text-white pt-2 mt-2 fs-6">16</span></div>
+         <div class="col-md-2"><img src="/assets/images/Cover Wattpad.jpg" class="rounded shadow" alt="" height="50" width="50"></div>
+       <div class="col-md-8 mx-1">
+         <p class="d-inline-block"><span class="text-white fs-5 lh-1">Happy Happy</span><br>
+           <span class="text-white fs-6 lh-1">Rose Love</span>
+         </p>
+         <p class="d-inline float-end fs-6">
+             <i class="fa-regular fa-heart"></i>
+         </p>
+       </div>
+     </div>     
+</li>        
+<li>
+        <div class="row">
+          <div class="col-md-1"><p></p>
+            <span class="text-white pt-2 mt-2 fs-6">17</span></div>
+          <div class="col-md-2"><img src="/assets/images/LIFESTYLE_ Inspiring Podcasts I’m Loving Listening to….png" class="rounded shadow" alt="" height="50" width="50"></div>
+        <div class="col-md-8 mx-1">
+          <p class="d-inline-block"><span class="text-white fs-5 lh-1">Romantic</span><br>
+            <span class="text-white fs-6 lh-1">Arjit</span>
+          </p>
+          <p class="d-inline float-end fs-6">
+              <i class="fa-regular fa-heart"></i>
+          </p>
+          
+
+        </div></div>
+        
+</li>
+<li>
+          <div class="row">
+            <div class="col-md-1"><p></p>
+              <span class="text-white pt-2 mt-2 fs-6">18</span></div>
+            <div class="col-md-2"><img src="/assets/images/icon.jpg" class="rounded shadow" alt="" height="50" width="50"></div>
+          <div class="col-md-8 mx-1">
+            <p class="d-inline-block"><span class="text-white fs-5 lh-1">Woory About</span><br>
+              <span class="text-white fs-6 lh-1">Else</span>
+            </p>
+            <p class="d-inline float-end fs-6">
+                <i class="fa-regular fa-heart"></i>
+            </p>
+            
+
+          </div></div>
+          
+</li>
+<li>
+<div class="row">
+<div class="col-md-1"><p></p>
+<span class="text-white pt-2 mt-2 fs-6">19</span></div>
+<div class="col-md-2"><img src="/assets/images/🥰.jpg" class="rounded shadow" alt="" height="50" width="50"></div>
+<div class="col-md-8 mx-1">
+<p class="d-inline-block"><span class="text-white fs-5 lh-1">New Skin</span><br>
+<span class="text-white fs-6 lh-1">Flume</span>
+</p>
+<p class="d-inline float-end fs-6">
+  <i class="fa-regular fa-heart"></i>
+</p>
+
+
+</div></div>
+
+</li>              
+<li>
+              <div class="row">
+                <div class="col-md-1"><p></p>
+                  <span class="text-white pt-2 mt-2 fs-6">20</span></div>
+                <div class="col-md-2"><img src="/assets/images/dark beauty.jpg" class="rounded shadow" alt="" height="50" width="50"></div>
+              <div class="col-md-8 mx-1">
+                <p class="d-inline-block"><span class="text-white fs-5 lh-1">Quotes</span><br>
+                  <span class="text-white fs-6 lh-1">Player</span>
+                </p>
+                <p class="d-inline float-end fs-6">
+                    <i class="fa-regular fa-heart"></i>
+                </p>
+                
+
+              </div></div>
+              
+</li>
+<li>
+                <div class="row">
+                  <div class="col-md-1"><p></p>
+                    <span class="text-white pt-2 mt-2 fs-6">21</span></div>
+                  <div class="col-md-2"><img src="/assets/images/Glaashead album cover.jpg" class="rounded shadow" alt="" height="50" width="50"></div>
+                <div class="col-md-8 mx-1">
+                  <p class="d-inline-block"><span class="text-white fs-5 lh-1">Glasshead Album</span><br>
+                    <span class="text-white fs-6 lh-1">Cover</span>
+                  </p>
+                  <p class="d-inline float-end fs-6">
+                      <i class="fa-regular fa-heart"></i>
+                  </p>
+                  
+  
+                </div></div>
+                
+</li>
+<li>
+    <div class="row">
+      <div class="col-md-1"><p></p>
+        <span class="text-white pt-2 mt-2 fs-6">22</span></div>
+      <div class="col-md-2"><img src="/assets/images/Colorful Album cover.jpg" class="rounded shadow" alt="" height="50" width="50"></div>
+    <div class="col-md-8 mx-1">
+      <p class="d-inline-block"><span class="text-white fs-5 lh-1">Mirage</span><br>
+        <span class="text-white fs-6 lh-1">Else</span>
+      </p>
+      <p class="d-inline float-end fs-6">
+          <i class="fa-regular fa-heart"></i>
+      </p>
+    </div></div> 
+</li>
+<li>
+<div class="row">
+         <div class="col-md-1"><p></p>
+           <span class="text-white pt-2 mt-2 fs-6">23</span></div>
+         <div class="col-md-2"><img src="/assets/images/Cover Wattpad.jpg" class="rounded shadow" alt="" height="50" width="50"></div>
+       <div class="col-md-8 mx-1">
+         <p class="d-inline-block"><span class="text-white fs-5 lh-1">Happy Happy</span><br>
+           <span class="text-white fs-6 lh-1">Rose Love</span>
+         </p>
+         <p class="d-inline float-end fs-6">
+             <i class="fa-regular fa-heart"></i>
+         </p>
+       </div>
+     </div>     
+</li>        
+<li>
+        <div class="row">
+          <div class="col-md-1"><p></p>
+            <span class="text-white pt-2 mt-2 fs-6">24</span></div>
+          <div class="col-md-2"><img src="/assets/images/LIFESTYLE_ Inspiring Podcasts I’m Loving Listening to….png" class="rounded shadow" alt="" height="50" width="50"></div>
+        <div class="col-md-8 mx-1">
+          <p class="d-inline-block"><span class="text-white fs-5 lh-1">Romantic</span><br>
+            <span class="text-white fs-6 lh-1">Arjit</span>
+          </p>
+          <p class="d-inline float-end fs-6">
+              <i class="fa-regular fa-heart"></i>
+          </p>
+          
+
+        </div></div>
+        
+</li>
+<li>
+          <div class="row">
+            <div class="col-md-1"><p></p>
+              <span class="text-white pt-2 mt-2 fs-6">25</span></div>
+            <div class="col-md-2"><img src="/assets/images/icon.jpg" class="rounded shadow" alt="" height="50" width="50"></div>
+          <div class="col-md-8 mx-1">
+            <p class="d-inline-block"><span class="text-white fs-5 lh-1">Woory About</span><br>
+              <span class="text-white fs-6 lh-1">Else</span>
+            </p>
+            <p class="d-inline float-end fs-6">
+                <i class="fa-regular fa-heart"></i>
+            </p>
+            
+
+          </div></div>
+          
+</li>
+<li>
+<div class="row">
+<div class="col-md-1"><p></p>
+<span class="text-white pt-2 mt-2 fs-6">26</span></div>
+<div class="col-md-2"><img src="/assets/images/🥰.jpg" class="rounded shadow" alt="" height="50" width="50"></div>
+<div class="col-md-8 mx-1">
+<p class="d-inline-block"><span class="text-white fs-5 lh-1">New Skin</span><br>
+<span class="text-white fs-6 lh-1">Flume</span>
+</p>
+<p class="d-inline float-end fs-6">
+  <i class="fa-regular fa-heart"></i>
+</p>
+
+
+</div></div>
+
+</li>              
+<li>
+              <div class="row">
+                <div class="col-md-1"><p></p>
+                  <span class="text-white pt-2 mt-2 fs-6">27</span></div>
+                <div class="col-md-2"><img src="/assets/images/dark beauty.jpg" class="rounded shadow" alt="" height="50" width="50"></div>
+              <div class="col-md-8 mx-1">
+                <p class="d-inline-block"><span class="text-white fs-5 lh-1">Quotes</span><br>
+                  <span class="text-white fs-6 lh-1">Player</span>
+                </p>
+                <p class="d-inline float-end fs-6">
+                    <i class="fa-regular fa-heart"></i>
+                </p>
+                
+
+              </div></div>
+              
+</li>
+<li>
+                <div class="row">
+                  <div class="col-md-1"><p></p>
+                    <span class="text-white pt-2 mt-2 fs-6">28</span></div>
+                  <div class="col-md-2"><img src="/assets/images/Glaashead album cover.jpg" class="rounded shadow" alt="" height="50" width="50"></div>
+                <div class="col-md-8 mx-1">
+                  <p class="d-inline-block"><span class="text-white fs-5 lh-1">Glasshead Album</span><br>
+                    <span class="text-white fs-6 lh-1">Cover</span>
+                  </p>
+                  <p class="d-inline float-end fs-6">
+                      <i class="fa-regular fa-heart"></i>
+                  </p>
+                  
+  
+                </div></div>
+                
+</li>
+      </ul>
+        </div>
+    </article>
+    <!-- end article -->
+      </div>
+      </div>
+     <!-- aside section end -->
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+
+  <script src="script.js"></script>
+</html>
